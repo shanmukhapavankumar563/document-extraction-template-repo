@@ -5,60 +5,57 @@ Welcome! This challenge is designed to evaluate your problem-solving skills and 
 ## 📅 Challenge Timeline
 * **Start Date:** [Insert Date/Time]
 * **End Date:** [Insert Date/Time - 10 days later]
-* **Submission:** Your final commit must be pushed to your private repository before the end date. 
-* **Branch Policy:** All work must be performed and submitted on the **`main`** branch.
+* **Submission:** Your final commit must be pushed before the deadline.
+* **Branch Policy:** You must perform all work and submit final code on the **`main`** branch only.
 
 ---
 
 ## 🚀 The Problem Statement
-Your task is to build an application (preferably using **Python** or any language you are comfortable with) that can process document images or PDFs to achieve the following:
+Your task is to build an application (preferably using **Python**) that can process document images or PDFs to achieve the following:
 
 1. **Classification:** Automatically identify if the document is an **Invoice** or a **Packing List**.
-2. **Extraction:** Extract the following key fields and provide the final result in an **Excel (.xlsx) format**:
+2. **Extraction:** Extract key fields and provide the final result in **Excel (.xlsx) or JSON format**:
    * **For Invoices:** Vendor Name, Invoice Number, Invoice Date, and the Table of Contents (Line Items).
    * **For Packing Lists:** Order Number / Purchase Order (PO) Number, Ship-to Address, and the Table of Contents (Line Items).
 
 ---
 
+## 🛠️ Technical Constraints (Local-First)
+To ensure data privacy and cost-efficiency, we have the following strict requirements:
+* **No External/Paid APIs:** You are **not** allowed to use paid or external services (e.g., OpenAI API, AWS Textract, Azure Document Intelligence).
+* **Local LLM Hosting:** If you choose an LLM-based solution for extraction or classification, it must be a **lightweight model** (e.g., Llama 3.2-3B, Phi-3, or Mistral-7B) capable of being **hosted locally** (using tools like Ollama, Llama.cpp, or Hugging Face).
+* **Tech Stack:** You are responsible for documenting how to set up the local environment to run your solution.
+
+---
+
 ## 📂 Repository Structure
-Please organize your repository as follows to ensure our team can review it efficiently:
 * `/app`: Your source code and application files.
-* `/samples`: We have provided initial samples. You are **highly encouraged** to generate and add your own samples (different formats) in sub-folders (e.g., `/training`, `/test`).
-* `/output`: This is where the **sample outputs** (Excel files) of your data extraction process should lie.
+* `/samples`: Initial samples provided. Add your own samples here in sub-folders (e.g., `/training`, `/test`).
+* `/output`: This is where your **sample outputs** (Excel/JSON files) from the extraction process must be stored.
 * `/resumes`: Upload your resume here as a **PDF file**.
-* `/design`: Place your detailed design documentation here (Images, PDF, or Docx).
+* `/design`: Detailed documentation explaining your logic (Images, PDF, or Docx).
 * `README.md`: This file.
 
 ---
 
 ## 🛠️ Design & Documentation Requirements
-We will **primarily review your design file** to evaluate your approach. Your documentation should be comprehensive and use whatever format (Images, Docx, PDF) best explains your logic.
-
-**Your design file must include:**
-* **Tech Stack:** Explain the libraries, tools, and languages used.
-* **Component Design:** A detailed breakdown of your application's architecture.
-* **Logic Flow:** Explain how the output is arrived at and, crucially, **how exceptions are handled**.
-* **Visuals:** Use diagrams or flowcharts to illustrate the system. You may also include sample outputs within this folder to support your explanation.
-
----
-
-## ⚖️ Requirements & Rules
-1. **Tech Stack:** While Python is preferred, you may choose your own tools. However, we require a detailed understanding of the stack and component interactions.
-2. **Multilingual Support:** For this assessment, we are only considering **English** documents.
-3. **The "10-Day" Rule:** No commits will be allowed or considered after the 10-day deadline.
-4. **Code Review:** At the time of the interview, you will be asked to **walk through and explain your code** in detail.
+We will **primarily review your design folder** to evaluate your approach. Your documentation must be detailed and cover:
+* **Tech Stack:** Specific versions of local models, libraries (e.g., Tesseract, PaddleOCR), and frameworks used.
+* **Component Architecture:** How the data flows from a raw PDF to a structured Excel/JSON file.
+* **Logic & Exceptions:** Explain how you arrived at the output and how you handle **exceptions** (e.g., blurred images, missing fields, or classification errors).
+* **Validation:** Keep samples of your successful outputs within the `/design` folder as well.
+* **Visuals:** Use diagrams, flowcharts, or screenshots to explain your system.
 
 ---
 
-## 📝 How to Submit
-1. **Design Documentation:** Upload your detailed files to the `/design` folder.
-2. **Sample Outputs:** Ensure the `/output` folder contains the Excel files generated by your tool.
-3. **Resume:** Ensure your updated resume is in the `/resumes` folder in **PDF format**.
-4. **Final Commit:** Ensure all code, samples, and documentation are pushed to the **`main`** branch before the desginated end date
+## ⚖️ Rules & Evaluation
+1. **Multilingual Support:** English documents only for this assessment.
+2. **The "10-Day" Rule:** No commits will be accepted after the 10-day window.
+3. **Interview Stage:** At the time of the interview, you will be asked to **live-code or walk through your logic** and explain how you handled specific document structures.
 
 ---
 
 ## ❓ Questions
-If you have questions regarding the requirements or technical constraints, please open an **Issue** in the [Main Template Repository]. Do not email the recruiters directly.
+If you have questions, please open an **Issue** in the [Main Template Repository]. Do not email the recruiters directly.
 
-**Good luck! We are excited to see your innovative approach to this problem.**
+**Good luck! We are excited to see your local-first, innovative approach.**
