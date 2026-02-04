@@ -32,7 +32,7 @@ To ensure data privacy and cost-efficiency, we have the following strict require
 * `/app`: Your source code and application files.
 * `/samples`: Initial samples provided. Add your own samples here in sub-folders (e.g., `/training`, `/test`).
 * `/output`: This is where your **sample outputs** (Excel/JSON files) from the extraction process must be stored.
-* `/resumes`: Upload your resume here as a **PDF file**.
+* `/resume`: Upload your resume here as a **PDF file**.
 * `/design`: Detailed documentation explaining your logic (Images, PDF, or Docx).
 * `README.md`: This is the file you are reading now
 * you can add more folders if you want, but we suggest to use this folder structure to keep it uniform.
