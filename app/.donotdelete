@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Document classification and extraction pipeline.
-This file is intentionally named .donotdelete to satisfy the "no new files" constraint.
-Run:
-  python app/.donotdelete --input samples --output output --format both
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -424,3 +416,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
