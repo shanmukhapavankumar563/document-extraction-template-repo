@@ -1,1 +1,70 @@
-.donot delete for non empty folder
+Document Extraction Design (stored here due no-new-files constraint)
+
+1) Tech Stack
+- Python 3.10+
+- pdfplumber (PDF text extraction)
+- pytesseract + pillow (OCR for images)
+- pdf2image (PDF OCR fallback when PDF has no text layer)
+- openpyxl (Excel output)
+- regex + rule-based heuristics for classification and field extraction
+- No external/paid APIs used
+
+2) Component Architecture
+- Input collector
+  - Reads a single file or recursively scans `samples/`
+  - Supported: .pdf, .png, .jpg, .jpeg, .tif, .tiff, .bmp
+- Text extraction
+  - PDFs: pdfplumber per page
+  - If no text from PDF: OCR fallback using pdf2image + pytesseract
+  - Images: pytesseract OCR
+- Classifier
+  - Score-based keyword matching
+  - Keywords for invoice vs packing list
+  - Chooses max-score class and confidence
+- Field extractor
+  - Invoice:
+    - vendor_name (header-first heuristic)
+    - invoice_number (regex: invoice no/number/#)
+    - invoice_date (regex + normalization)
+  - Packing list:
+    - order_or_po_number (order/po regex)
+    - ship_to_address (block extraction after Ship To label)
+- Line-item extractor
+  - Parses mixed alphanumeric lines with numeric tokens
+  - Captures description, quantity, unit price, line total
+- Output writer
+  - JSON always supported
+  - XLSX optional when openpyxl is installed
+  - Writes to `output/` with timestamps
+
+3) Logic and Exceptions
+- Blurred/low-quality image
+  - OCR can degrade; script records warning in `notes`
+- Missing fields
+  - Returns null-like values in JSON (`None` serialized to `null`)
+- Unknown format
+  - If no text extracted: `document_type = unknown`, confidence 0.0
+- Misclassification risk
+  - Confidence is surfaced; downstream can review low-confidence docs
+- Dependency missing
+  - Script does not crash hard for optional modules
+  - Records issue and continues where possible
+
+4) Validation Strategy
+- Use provided sample sets:
+  - `samples/invoices/*`
+  - `samples/packinglist/*`
+- Verify:
+  - document_type correctness
+  - required fields present where available
+  - non-empty line_items for table-rich documents
+  - outputs generated in `output/`
+- Store representative output sample in `output/.donotdelete` (below)
+
+5) Flowchart (text)
+Input file/folder
+  -> extract text (PDF parse or OCR)
+  -> classify (invoice/packing list)
+  -> extract required fields
+  -> extract line items
+  -> write JSON/XLSX to output folder
