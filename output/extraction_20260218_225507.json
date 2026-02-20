@@ -1,0 +1,99 @@
+[
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_1.pdf",
+    "document_type": "invoice",
+    "confidence": 1.0,
+    "fields": {
+      "vendor_name": "FL FIDELIS LOGISTICS LIMITED",
+      "invoice_number": null,
+      "invoice_date": "2026-01-19"
+    },
+    "line_items": [
+      {
+        "description": "Sector-6, Dronagiri, Taluka Uran, Navi Mumbai - 400707, MH",
+        "quantity": "-6",
+        "unit_price": "-6",
+        "line_total": "400707"
+      },
+      {
+        "description": "Phone: 022-2724 6500 | GSTIN: 27AAACF0000Q1Z5",
+        "quantity": "022",
+        "unit_price": "1",
+        "line_total": "5"
+      },
+      {
+        "description": "Invoice No.: FDL/2324/22788 Date: 2026-01-19",
+        "quantity": "2324",
+        "unit_price": "-01",
+        "line_total": "-19"
+      },
+      {
+        "description": "Segment: Export Due Date: 2026-02-07",
+        "quantity": "2026",
+        "unit_price": "-02",
+        "line_total": "-07"
+      },
+      {
+        "description": "GSTIN: 27AAACF0000Q1Z5 Narration: STUFFING",
+        "quantity": "27",
+        "unit_price": "1",
+        "line_total": "5"
+      },
+      {
+        "description": "Handling Charges - 40' HC 996711 8 12250 98000 8820.0 8820.0 115640.0",
+        "quantity": "40",
+        "unit_price": "8820.0",
+        "line_total": "115640.0"
+      },
+      {
+        "description": "Handling Charges - 20' DRY 996711 3 8000 24000 2160.0 2160.0 28320.0",
+        "quantity": "20",
+        "unit_price": "2160.0",
+        "line_total": "28320.0"
+      },
+      {
+        "description": "Lift-On / Lift-Off 996711 6 1450 8700 783.0 783.0 10266.0",
+        "quantity": "996711",
+        "unit_price": "783.0",
+        "line_total": "10266.0"
+      },
+      {
+        "description": "Documentation Charges 996713 1 950 950 85.5 85.5 1121.0",
+        "quantity": "996713",
+        "unit_price": "85.5",
+        "line_total": "1121.0"
+      },
+      {
+        "description": "Seal Charges 996713 12 200 2400 216.0 216.0 2832.0",
+        "quantity": "996713",
+        "unit_price": "216.0",
+        "line_total": "2832.0"
+      },
+      {
+        "description": "Fuel Surcharge 996711 1 2750 2750 247.5 247.5 3245.0",
+        "quantity": "996711",
+        "unit_price": "247.5",
+        "line_total": "3245.0"
+      },
+      {
+        "description": "Scanning Charges 996711 2 1500 3000 270.0 270.0 3540.0",
+        "quantity": "996711",
+        "unit_price": "270.0",
+        "line_total": "3540.0"
+      },
+      {
+        "description": "TSC - Empty Movement 996711 3 300 900 81.0 81.0 1062.0",
+        "quantity": "996711",
+        "unit_price": "81.0",
+        "line_total": "1062.0"
+      },
+      {
+        "description": "EDI / IT Charges 996713 1 750 750 67.5 67.5 885.0",
+        "quantity": "996713",
+        "unit_price": "67.5",
+        "line_total": "885.0"
+      }
+    ],
+    "notes": []
+  }
+]

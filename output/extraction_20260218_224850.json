@@ -1,0 +1,530 @@
+[
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_1.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_10.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_11.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_12.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_13.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_14.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_15.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_16.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_17.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_18.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_19.jpg",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "OCR skipped for image: install pillow + pytesseract",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_2.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_20.jpg",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "OCR skipped for image: install pillow + pytesseract",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_21.jpg",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "OCR skipped for image: install pillow + pytesseract",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_22.jpg",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "OCR skipped for image: install pillow + pytesseract",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_23.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_24.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_25.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_3.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_4.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_5.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_6.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_7.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_8.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\invoices\\invoice_9.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist1.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist10.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist11.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist12.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist13.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist14.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist15.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist16.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist17.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist18.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist19.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist2.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist20.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist21.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist22.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist23.png",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "OCR skipped for image: install pillow + pytesseract",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist3.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist4.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist5.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist6.jpg",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "OCR skipped for image: install pillow + pytesseract",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist7.jpg",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "OCR skipped for image: install pillow + pytesseract",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist8.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  },
+  {
+    "source_file": "C:\\Users\\shanmukha pavan kuma\\Downloads\\document-extraction-template-repo-main\\document-extraction-template-repo-main\\samples\\packinglist\\packinglist9.pdf",
+    "document_type": "unknown",
+    "confidence": 0.0,
+    "fields": {},
+    "line_items": [],
+    "notes": [
+      "PDF text extraction skipped: install pdfplumber",
+      "No text extracted"
+    ]
+  }
+]

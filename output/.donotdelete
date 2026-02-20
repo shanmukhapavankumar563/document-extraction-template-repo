@@ -1,1 +1,40 @@
-.donot delete for non empty folder
+Sample Output Structure (JSON example)
+[
+  {
+    "source_file": "samples/invoices/invoice_1.pdf",
+    "document_type": "invoice",
+    "confidence": 0.86,
+    "fields": {
+      "vendor_name": "ABC Suppliers Pvt Ltd",
+      "invoice_number": "INV-2026-001",
+      "invoice_date": "2026-02-17"
+    },
+    "line_items": [
+      {
+        "description": "Widget A 10 15.00 150.00",
+        "quantity": "10",
+        "unit_price": "15.00",
+        "line_total": "150.00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "source_file": "samples/packinglist/packinglist1.pdf",
+    "document_type": "packing_list",
+    "confidence": 0.83,
+    "fields": {
+      "order_or_po_number": "PO-44581",
+      "ship_to_address": "Warehouse 7, 14 North Street, Austin, TX, 78701"
+    },
+    "line_items": [
+      {
+        "description": "Carton 1 Blue Bolts 120",
+        "quantity": "1",
+        "unit_price": null,
+        "line_total": null
+      }
+    ],
+    "notes": []
+  }
+]
